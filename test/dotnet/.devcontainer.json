@@ -1,0 +1,11 @@
+{
+    "image": "joyfourl/dev-dotnet:latest",
+    "features": {
+        // Install the Dapr CLI
+        "ghcr.io/dapr/cli/dapr-cli:0": {},
+        // Enable Docker (via Docker-in-Docker)
+            // "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        // Alternatively, use Docker-outside-of-Docker (uses Docker in the host)
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+    }
+}
